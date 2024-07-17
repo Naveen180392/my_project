@@ -1,0 +1,27 @@
+.attendance-report {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .heading {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  

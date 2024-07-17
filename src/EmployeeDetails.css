@@ -1,0 +1,85 @@
+/* EmployeeDetails.css */
+.container {
+  padding: 20px;
+  border: 1px solid #000;
+  width: 600px;
+  margin: 20px auto; /* Center the container and add some spacing */
+  background-color: #F8F8F8;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.header {
+  text-align: center;
+  background-color: #3f6af6;
+  color: white;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px; /* Increased margin for better separation */
+}
+
+.label {
+  margin-left: 10px;
+}
+
+.text-input, .file-input {
+  width: calc(100% - 20px); /* Adjusted input width */
+  margin-left: 10px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #D3D3D3;
+}
+
+.centered-text {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.submit-button, .logout-button {
+  background-color: #3867f4;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.logout-button {
+  background-color: #C7604F;
+}
+
+.logged-in-status {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.status-button {
+  color: #1677ff;
+  margin-left: 10px;
+  padding: 8px 12px;
+  border: 1px solid #1677ff;
+  border-radius: 4px;
+}
+
+.green {
+  background-color: #8bc34a;
+  border-color: #8bc34a;
+  color: white;
+}
+
+.red {
+  background-color: #f44336;
+  border-color: #f44336;
+  color: white;
+}
+
+.timer {
+  font-size: 18px;
+  margin-top: 10px;
+}
